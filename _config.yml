@@ -4,4 +4,12 @@ description: Exo, the exoskeleton for your Windows PC.
 logo: images/logo.png
 github:
   owner_url: https://github.com/hexawyz
+  repository_name: Exo
   repository_url: https://github.com/hexawyz/Exo
+  repository_nwo: hexawyz/Exo
+  zip_url: https://github.com/hexawyz/Exo/zipball/master
+  tar_url: https://github.com/hexawyz/Exo/tarball/master
+  clone_url: https://github.com/hexawyz/Exo.git
+  releases_url: https://github.com/hexawyz/Exo/releases
+  issues_url: https://github.com/hexawyz/Exo/issues
+  wiki_url: https://github.com/hexawyz/Exo/wiki

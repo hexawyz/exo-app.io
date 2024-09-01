@@ -1,16 +1,12 @@
-Exo is a lightweight background service delivered with a nice modern UI, that will manage the features of your devices without sacrificing your memory or CPU.
+Exo is a lightweight background service bundled with a nice modern Windows UI, that will manage the features of your devices without sacrificing your memory or CPU.
 
 With Exo, you can get rid of many low-performing apps on your computer, and free some useful resources.
-
-Grab it on GitHub: https://github.com/hexawyz/Exo
-
-![Screenshot of the Home Page](<images/Screenshot-Exo-Home.png>)
 
 # Features
 
 ## Quick Battery Summary on the Home Page
 
-![Screenshot of the Home Page](<images/Screenshot-Exo-Home.png>)
+![Screenshot of the Home Page](images/Screenshot-Exo-Home.png)
 
 Something that you may miss is the ability to quickly check the battery state of your devices.
 Exo provides that on its home page, so that this is the first thing you see when opening the app.
@@ -19,16 +15,16 @@ Exo provides that on its home page, so that this is the first thing you see when
 
 Overlay notifications will be shown for changes in your devices, for devices supporting it.
 
-![Screenshot of a Battery Charging notification](images/Screenshot-Exo-Notification-BatteryCharging.png)
-![Screenshot of a Caps Lock notification](images/Screenshot-Exo-Notification-CapsLock.png)
-![Screenshot of a Keyboard Backlighting Up notification](images/Screenshot-Exo-Notification-KeyboardBacklighting.png)
-![Screenshot of a Mouse DPI Up notification](images/Screenshot-Exo-Notification-MouseDpi.png)
+![Screenshot of a Battery Charging notification](images/Screenshot-Exo-Notification-BatteryCharging.png | width=100)
+![Screenshot of a Caps Lock notification](images/Screenshot-Exo-Notification-CapsLock.png | width=100)
+![Screenshot of a Keyboard Backlighting Up notification](images/Screenshot-Exo-Notification-KeyboardBacklighting.png | width=100)
+![Screenshot of a Mouse DPI Up notification](images/Screenshot-Exo-Notification-MouseDpi.png | width=100)
 
 Shown above are examples of the notifications that Exo can show.
 
 ## List of recognized devices
 
-![Screenshot of the Devices Page](<images/Screenshot-Exo-Devices.png>)
+![Screenshot of the Devices Page](images/Screenshot-Exo-Devices.png)
 
 On this page, you will quickly know which devices are currently recognized by Exo, and which ones are currently connected.
 
@@ -48,14 +44,14 @@ Exo will strictly identify devices by their serial numbers, even in cases where 
 
 ## Mouse settings
 
-![Screenshot of the settings for a Razer Mouse](<images/Screenshot-Exo-Mouse-Razer.png>)
-![Screenshot of the settings for a Logitech Mouse](<images/Screenshot-Exo-Mouse-Logitech.png>)
+![Screenshot of the settings for a Razer Mouse](images/Screenshot-Exo-Mouse-Razer.png)
+![Screenshot of the settings for a Logitech Mouse](images/Screenshot-Exo-Mouse-Logitech.png)
 
 Capability to configure DPI presets and change the active preset are implemented in Exo, as well as ability to support 
 
 ## Battery and Power settings
 
-![Screenshot of the Devices Page](<images/Screenshot-Exo-Mouse-PowerManagement.png>)
+![Screenshot of the Devices Page](images/Screenshot-Exo-Mouse-PowerManagement.png)
 
 For the devices where it is applicable, Exo will display detailed battery informations and allow to configure some power saving settings.
 
@@ -123,4 +119,4 @@ The UI is kept as a separate component in order to preserve precious system reso
 
 ![Screenshor from Task Manager running Exo](images/Screenshot-TaskManager-Exo-Resources.png)
 
-As you can see on the screenshot above, Exo memory consumption is pretty reasonnable, topping at about 53 MB of exclusive memory, while handling more devices and combined features than a software you would use for a single device.
+As you can see on the screenshot above, Exo memory consumption is pretty reasonnable, topping at about 55 MB of exclusive memory for the background service, while handling more devices and combined features than a software you would use for a single device.
