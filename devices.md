@@ -180,7 +180,7 @@
     <td>✔️</td>
   </tr>
   <tr>
-    <td rowspan="5">Razer</td>
+    <td rowspan="6">Razer</td>
     <td rowspan="5">Mouse</td>
     <td rowspan="3">DeathAdder V2 Pro</td>
     <td>USB</td>
@@ -237,6 +237,24 @@
     <td>Dongle</td>
     <td>1532:00B7</td>
     <td>✔️</td>
+  </tr>
+  <tr>
+    <td>Mouse Dock</td>
+    <td>Mouse Dock</td>
+    <td>USB</td>
+    <td>1532:007E</td>
+    <td colspan="3"></td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td colspan="3"></td>
+    <td colspan="2"></td>
+    <td colspan="4"></td>
+    <td></td>
+    <td colspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Gigabyte</td>
