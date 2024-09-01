@@ -2,6 +2,8 @@ Exo is a lightweight background service bundled with a nice modern Windows UI, t
 
 With Exo, you can get rid of many low-performing apps on your computer, and free some useful resources.
 
+You can check the [Supported Devices](devices.md) page to see if your device is supported.
+
 # Features
 
 ## Quick Battery Summary on the Home Page
@@ -119,4 +121,4 @@ The UI is kept as a separate component in order to preserve precious system reso
 
 ![Screenshor from Task Manager running Exo](images/Screenshot-TaskManager-Exo-Resources.png)
 
-As you can see on the screenshot above, Exo memory consumption is pretty reasonnable, topping at about 55 MB of exclusive memory for the background service, while handling more devices and combined features than a software you would use for a single device.
+As you can see on the screenshot above, Exo memory consumption is pretty reasonnable, topping at about 46 MB of exclusive memory for the background service, while handling more devices and combined features than a software you would use for a single device.
