@@ -1,12 +1,10 @@
-# Exo
-
 Exo is a lightweight background service delivered with a nice modern UI, that will manage the features of your devices without sacrificing your memory or CPU.
-
-![Screenshot of the Home Page](<images/Screenshot-Exo-Home.png>)
 
 With Exo, you can get rid of many low-performing apps on your computer, and free some useful resources.
 
 Grab it on GitHub: https://github.com/hexawyz/Exo
+
+![Screenshot of the Home Page](<images/Screenshot-Exo-Home.png>)
 
 # Features
 

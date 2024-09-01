@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: Exo
 description: Exo, the exoskeleton for your Windows PC.
+logo: images/logo.png
+github:
+  owner_url: https://github.com/hexawyz
+  repository_url: https://github.com/hexawyz/Exo
