@@ -15,10 +15,10 @@ Exo provides that on its home page, so that this is the first thing you see when
 
 Overlay notifications will be shown for changes in your devices, for devices supporting it.
 
-![Screenshot of a Battery Charging notification](images/Screenshot-Exo-Notification-BatteryCharging.png | width=100)
-![Screenshot of a Caps Lock notification](images/Screenshot-Exo-Notification-CapsLock.png | width=100)
-![Screenshot of a Keyboard Backlighting Up notification](images/Screenshot-Exo-Notification-KeyboardBacklighting.png | width=100)
-![Screenshot of a Mouse DPI Up notification](images/Screenshot-Exo-Notification-MouseDpi.png | width=100)
+<img alt="Screenshot of a Battery Charging notification" src="images/Screenshot-Exo-Notification-BatteryCharging.png" width="150" />
+<img alt="Screenshot of a Caps Lock notification" src="images/Screenshot-Exo-Notification-CapsLock.png" width="150" />
+<img alt="Screenshot of a Keyboard Backlighting Up notification" src="images/Screenshot-Exo-Notification-KeyboardBacklighting.png" width="150" />
+<img alt="Screenshot of a Mouse DPI Up notification" src="images/Screenshot-Exo-Notification-MouseDpi.png" width="150" />
 
 Shown above are examples of the notifications that Exo can show.
 
