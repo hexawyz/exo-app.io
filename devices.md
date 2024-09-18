@@ -8,6 +8,7 @@
     <td rowspan="2">Device</td>
     <td rowspan="2">Connection</td>
     <td rowspan="2">IDs</td>
+    <td rowspan="2">Without Vendor Kernel Driver</td>
     <td colspan="3">Power</td>
     <td colspan="3">RGB Lighting</td>
     <td colspan="3">Mouse</td>
@@ -59,6 +60,7 @@
     <td>Any</td>
     <td>046D:*</td>
     <td>✔️</td>
+    <td>✔️</td>
     <td>❌</td>
     <td>❌</td>
     <td>❌</td>
@@ -82,6 +84,7 @@
     <td>Any</td>
     <td>046D:*</td>
     <td>✔️</td>
+    <td>✔️</td>
     <td>❌</td>
     <td>❌</td>
     <td colspan="3"></td>
@@ -102,6 +105,7 @@
     <td>Any</td>
     <td>046D:*</td>
     <td>✔️</td>
+    <td>✔️</td>
     <td>❌</td>
     <td>❌</td>
     <td colspan="3"></td>
@@ -119,6 +123,7 @@
     <td>MX Keys Mac Mini</td>
     <td>Any</td>
     <td>046D:*</td>
+    <td>✔️</td>
     <td>✔️</td>
     <td>❌</td>
     <td>❌</td>
@@ -138,6 +143,7 @@
     <td>Lightspeed Receiver</td>
     <td>USB</td>
     <td>046D:C547 ?</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -153,6 +159,7 @@
     <td>Unifying Receiver</td>
     <td>USB</td>
     <td>046D:C52B 046D:C531 046D:C532 046D:C534</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -168,6 +175,7 @@
     <td>Bolt Receiver</td>
     <td>USB</td>
     <td>046D:C548</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -180,11 +188,32 @@
     <td>✔️</td>
   </tr>
   <tr>
-    <td rowspan="6">Razer</td>
-    <td rowspan="5">Mouse</td>
+    <td rowspan="7">Razer</td>
+    <td rowspan="6">Mouse</td>
+    <td><a href="devices/RazerDeathAdder.md">DeathAdder 3.5G</a></td>
+    <td>USB</td>
+    <td>1532:0016</td>
+    <td>❌</td>
+    <td colspan="3"></td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>🔍</td>
+    <td>✔️</td>
+    <td colspan="2"></td>
+    <td colspan="4"></td>
+    <td></td>
+    <td colspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td rowspan="3">DeathAdder V2 Pro</td>
     <td>USB</td>
     <td>1532:007C</td>
+    <td>✔️</td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
@@ -205,12 +234,14 @@
   <tr>
     <td>Dongle</td>
     <td>1532:007D</td>
+    <td>✔️</td>
     <td>💾</td>
     <td>✔️</td>
   </tr>
   <tr>
     <td>Bluetooth</td>
     <td>1532:008E</td>
+    <td>✔️</td>
     <td>❌</td>
     <td></td>
   </tr>
@@ -218,6 +249,7 @@
     <td rowspan="2">DeathAdder V3 Pro</td>
     <td>USB</td>
     <td>1532:00B6</td>
+    <td>✔️</td>
     <td rowspan="2">✔️</td>
     <td rowspan="2">✔️</td>
     <td rowspan="2">✔️</td>
@@ -237,12 +269,14 @@
     <td>Dongle</td>
     <td>1532:00B7</td>
     <td>✔️</td>
+    <td>✔️</td>
   </tr>
   <tr>
     <td>Mouse Dock</td>
     <td>Mouse Dock</td>
     <td>USB</td>
     <td>1532:007E</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td>✔️</td>
     <td>❌</td>
@@ -262,6 +296,7 @@
     <td>RGB Fusion 2.0 Motherboard</td>
     <td>(USB)</td>
     <td>048D:5702</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td>✔️</td>
     <td>✔️</td>
@@ -282,6 +317,7 @@
     <td>HX1200i</td>
     <td>USB</td>
     <td>1B1C:1C08</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -300,6 +336,7 @@
     <td>Kraken Z63</td>
     <td>USB</td>
     <td>1E71:3008</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -319,6 +356,7 @@
     <td>Trident Z Neo</td>
     <td>DDR4</td>
     <td>F4-3600C18-32GTZN</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td>❌</td>
     <td>✔️</td>
@@ -338,6 +376,7 @@
     <td>StreamDeck XL</td>
     <td>USB</td>
     <td>0FD9:006C</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -356,6 +395,7 @@
     <td>USB</td>
     <td>0463:FFFF</td>
     <td>✔️</td>
+    <td>✔️</td>
     <td colspan="2"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -373,6 +413,7 @@
     <td>Various</td>
     <td>PCI</td>
     <td>8086:*</td>
+    <td>❌</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -390,6 +431,7 @@
     <td>Various</td>
     <td>PCI</td>
     <td>10DE:*</td>
+    <td>❌</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -406,6 +448,7 @@
     <td>RTX 3090 FE</td>
     <td>PCI</td>
     <td>10DE:2204</td>
+    <td>❌</td>
     <td colspan="3"></td>
     <td>❌</td>
     <td>✔️</td>
@@ -426,6 +469,7 @@
     <td>Various</td>
     <td>GPU</td>
     <td></td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -445,6 +489,7 @@
     <td>VP2785-4K</td>
     <td>GPU</td>
     <td>VSC7F34</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -464,6 +509,7 @@
     <td rowspan="2">27GP950</td>
     <td>GPU</td>
     <td>GSM5BBF GSM5BC0 GSM5BEE</td>
+    <td>✔️</td>
     <td rowspan="2" colspan="3"></td>
     <td colspan="3"></td>
     <td rowspan="2" colspan="3"></td>
@@ -482,6 +528,7 @@
     <td>USB</td>
     <td>043E:9A8A</td>
     <td>✔️</td>
+    <td>✔️</td>
     <td>❌</td>
     <td>✔️</td>
   </tr>
@@ -492,6 +539,7 @@
     <td>Name</td>
     <td>Connection</td>
     <td>IDs</td>
+    <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>

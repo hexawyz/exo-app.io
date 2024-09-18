@@ -4,6 +4,13 @@ With Exo, you can get rid of many low-performing apps on your computer, and free
 
 You can check the [Supported Devices](devices.md) page to see if your device is supported.
 
+Download a [recent build](https://github.com/hexawyz/Exo/actions), or [a release](https://github.com/hexawyz/Exo/releases) on GitHub.
+
+# Prerequisites
+
+* .NET 8.0.8 runtime: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+* Windows App SDK 1.6 Runtime: https://aka.ms/windowsappsdk/1.6/1.6.240829007/windowsappruntimeinstall-x64.exe
+
 # Features
 
 ## Quick Battery Summary on the Home Page
