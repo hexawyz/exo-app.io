@@ -8,8 +8,8 @@ Download a [recent build](https://github.com/hexawyz/Exo/actions), or [a release
 
 # Prerequisites
 
-* .NET 8.0.8 runtime: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
-* Windows App SDK 1.6 Runtime: https://aka.ms/windowsappsdk/1.6/1.6.240829007/windowsappruntimeinstall-x64.exe
+* [.NET 8.0.8 runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+* [Windows App SDK 1.6 Runtime](https://aka.ms/windowsappsdk/1.6/1.6.240829007/windowsappruntimeinstall-x64.exe)
 
 # Features
 
