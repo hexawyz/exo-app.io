@@ -188,8 +188,8 @@
     <td>✔️</td>
   </tr>
   <tr>
-    <td rowspan="7">Razer</td>
-    <td rowspan="6">Mouse</td>
+    <td rowspan="9">Razer</td>
+    <td rowspan="8">Mouse</td>
     <td><a href="devices/RazerDeathAdder.md">DeathAdder 3.5G</a></td>
     <td>USB</td>
     <td>1532:0016</td>
@@ -208,6 +208,46 @@
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>Mamba Chroma</td>
+    <td>USB</td>
+    <td>1532:0044</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>💾</td>
+    <td colspan="2"></td>
+    <td colspan="4"></td>
+    <td></td>
+    <td colspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mamba Chroma Dock</td>
+    <td>USB</td>
+    <td>1532:0045</td>
+    <td>✔️</td>
+    <td colspan="3"></td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td colspan="3"></td>
+    <td colspan="2"></td>
+    <td colspan="4"></td>
+    <td></td>
+    <td colspan="2"></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
   </tr>
   <tr>
     <td rowspan="3">DeathAdder V2 Pro</td>
