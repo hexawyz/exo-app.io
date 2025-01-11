@@ -1,8 +1,8 @@
 Exo is a lightweight background service bundled with a nice modern Windows UI, that will manage the features of your devices without sacrificing your memory or CPU.
 
-With Exo, you can get rid of many low-performing apps on your computer, and free some useful resources.
+With Exo, you can get rid of many inefficient apps on your computer, and reduce the RAM and CPU consumption.
 
-You can check the [Supported Devices](devices.md) page to see if your device is supported.
+You can check the [Supported Devices](devices.md) page to see if your device(s) are supported.
 
 Download a [recent build](https://github.com/hexawyz/Exo/actions), or [a release](https://github.com/hexawyz/Exo/releases) on GitHub.
 
@@ -108,24 +108,31 @@ This is mainly used for low-level devices such as a GPU or a PSU, but being able
 
 More importantly, having a wide source of sensors is necessary to support software cooling curves.
 
-## Cooling (WIP)
-
-⚠️ This feature is not yet entirely complete. Notably, the settings won't be persisted and applied on service startup.
+## Cooling
 
 ![Screenshot of the Cooling page](images/Screenshot-Exo-Cooling.png)
 
 Exo is able to change cooling settings of devices. (Fan power, Pump power)
 
-It also supports applying software cooling curves based on available sensors.
+Cooling curves can be applied based on other sensors.
+Support for hardware cooling curves is available for devices that are capable of it.
+Otherwise, Exo will manage software cooling curves, which are more flexible and can be more efficient but will consume some CPU.
 
 # How
 
-Exo is implemented as a Windows service, which will start very early and consume a few dozens of MB at most.
+Exo is implemented as a Windows service. This means that it will start early and outside of any graphical user session, which is something that you absolutely want.
 
-This is far from the hundeds of MB that a single manufacturer app would typically consume, and which would usually only run once your session is started.
+This background service will only consume a few dozens of MB, which is far from the hundreds of MB that many of manufacturer apps would typically consume.
+Many of those apps would also be unable to run outside of graphical user session because of their design.
 
-The UI is kept as a separate component in order to preserve precious system resources, and allow you to only show it when you need it.
+Obviously, we still want some nice UI to configure everything.
+In the case of Exo, the UI is kept as a separate application, that you can start only when needed.
+This allow preserving previous system resources, while not depriving of the comfort of a UI.
 
-![Screenshor from Task Manager running Exo](images/Screenshot-TaskManager-Exo-Resources.png)
+Exo is also supported by a lighter UI helper component that will be in charge of displaying overlay notifications and providing some support to the service for some features that require UI access.
+Notably, this component is strictly required to be running in order to support monitor devices on most Intel GPUs. (Because on "old" devices, Intel does not provide an API allowing to access DDC features unlike NVIDIA or AMD)
 
-As you can see on the screenshot above, Exo memory consumption is pretty reasonnable, topping at about 46 MB of exclusive memory for the background service, while handling more devices and combined features than a software you would use for a single device.
+![Screenshot from Task Manager running Exo](images/Screenshot-TaskManager-Exo-Resources.png)
+
+As you can see on the screenshot above, Exo memory consumption is pretty reasonable, topping at about 43 MB of exclusive memory for the background service.
+This is all while handling more devices and combined features than the software you would typically use for a single device.
