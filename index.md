@@ -97,6 +97,35 @@ The option to persist lighting settings to non-volatile memory of the device is 
 
 Support for unified lighting effects can also be toggled for mlti-zone devices that support it.
 
+## Embedded Monitors
+
+![Screenshot of a Device page, showing Embedded Monitor settings](images/Screenshot-Exo-Embedded-Monitor.png)
+
+Exo will manage the embedded monitors on your devices. While relatively niche, these external displays are becoming more common, as many AIOs will have them.
+Buttons of the StreamDeck devices will also be exposed as embedded monitors.
+
+Embedded monitors can be assigned an image from the image library managed by Exo, with support for animated GIFs, and automatic conversion of images to the correct format for the device.
+
+As on-device memory may be limited, and Exo's image processing capabilities are not perfect, you may sometimes want to preprocess images with a tool such as gifsicle to produce an optimized output.
+
+If you provide an image in the correct format and with the correct characteristics, it will be passed through to the device without any processing.
+
+It is also worth noting that, at the expense of more disk usage, image transformations are cached to save on processing time.
+This is especially important for large animated GIFs, which may require multiple seconds to be processed.
+
+## Image library
+
+![Screenshot of a the Images page, showing the image library](images/Screenshot-Exo-Image-Library.png)
+
+To support the embedded monitors feature, an image library has been added to Exo.
+Here, you'll be able to add images to the service, which will then be useable for display on embedded monitors.
+
+Naming of image is for user convenience, and Exo will never use the name to reference images.
+
+⚠️ There is currently no check on the use of an image before deletion. Deleting images should not break the service, though.
+
+ℹ️ This image library is alays present in Exo, but it is pointless if you don't have any (supported) embedded monitor.
+
 ## Sensors
 
 ![Screenshot of the Sensors page](images/Screenshot-Exo-Sensors-1.png)
