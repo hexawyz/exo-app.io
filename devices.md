@@ -1,5 +1,6 @@
 # Supported Devices
 
+<div style="overflow-x: scroll">
 <table>
 <thead>
   <tr>
@@ -594,3 +595,4 @@
   -->
 </tbody>
 </table>
+</div>
