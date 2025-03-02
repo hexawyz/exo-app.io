@@ -12,6 +12,7 @@
     <td rowspan="2">Without Vendor Kernel Driver</td>
     <td colspan="3">Power</td>
     <td colspan="3">RGB Lighting</td>
+    <td colspan="3">Lamps</td>
     <td colspan="3">Embedded Display</td>
     <td colspan="3">Mouse</td>
     <td colspan="2">Keyboard</td>
@@ -31,6 +32,10 @@
     <td>Unified</td>
     <td>Zones</td>
     <td>Persistence</td>
+    <!-- RGB Lighting -->
+    <td>On/Off</td>
+    <td>Brightness</td>
+    <td>Color T°</td>
     <!-- Embedded Display -->
     <td>Static images</td>
     <td>Animated images</td>
@@ -73,6 +78,7 @@
     <td>❌</td>
     <td>❌</td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td>✔️</td>
     <td>🔍</td>
     <td>🔍</td>
@@ -94,6 +100,7 @@
     <td>✔️</td>
     <td>❌</td>
     <td>❌</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td>✔️</td>
@@ -119,6 +126,7 @@
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td>✔️</td>
     <td>✔️</td>
     <td colspan="4"></td>
@@ -136,6 +144,7 @@
     <td>✔️</td>
     <td>❌</td>
     <td>❌</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -158,6 +167,7 @@
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td></td>
@@ -175,6 +185,7 @@
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td></td>
@@ -188,6 +199,7 @@
     <td>USB</td>
     <td>046D:C548</td>
     <td>✔️</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -212,6 +224,7 @@
     <td>✔️</td>
     <td>❌</td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td>✔️</td>
     <td>🔍</td>
     <td>✔️</td>
@@ -235,6 +248,7 @@
     <td>❌</td>
     <td>✔️</td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td>✔️</td>
     <td>❌</td>
     <td>💾</td>
@@ -257,6 +271,7 @@
     <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td></td>
@@ -276,6 +291,7 @@
     <td rowspan="3">✔️</td>
     <td rowspan="3">❌</td>
     <td rowspan="3">✔️</td>
+    <td rowspan="3" colspan="3"></td>
     <td rowspan="3" colspan="3"></td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">💾</td>
@@ -312,6 +328,7 @@
     <td rowspan="2">✔️</td>
     <td rowspan="2" colspan="3"></td>
     <td rowspan="2" colspan="3"></td>
+    <td rowspan="2" colspan="3"></td>
     <td rowspan="2">✔️</td>
     <td rowspan="2">💾</td>
     <td rowspan="2">💾</td>
@@ -341,6 +358,7 @@
     <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td></td>
@@ -362,6 +380,7 @@
     <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td>❌</td>
@@ -378,6 +397,7 @@
     <td>USB</td>
     <td>1B1C:1C08</td>
     <td>✔️</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -402,6 +422,7 @@
     <td rowspan="3">❌</td>
     <td rowspan="3">❌</td>
     <td rowspan="3">❌</td>
+    <td rowspan="3" colspan="3"></td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
@@ -431,6 +452,7 @@
     <td rowspan="3">❌</td>
     <td rowspan="3">❌</td>
     <td rowspan="3">❌</td>
+    <td rowspan="3" colspan="3"></td>
     <td rowspan="3">❓</td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
@@ -460,6 +482,7 @@
     <td rowspan="3">❌</td>
     <td rowspan="3">❌</td>
     <td rowspan="3">❌</td>
+    <td rowspan="3" colspan="3"></td>
     <td rowspan="3">❓</td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
@@ -493,6 +516,7 @@
     <td>✔️</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td></td>
@@ -502,12 +526,13 @@
     <td></td>
   </tr>
   <tr>
-    <td>Elgato</td>
+    <td rowspan="3">Elgato</td>
     <td>Other</td>
     <td>StreamDeck XL</td>
     <td>USB</td>
     <td>0FD9:006C</td>
     <td>✔️</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td>✔️</td>
@@ -521,6 +546,30 @@
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Lamp</td>
+    <td>Ring Light</td>
+    <td rowspan="2">Wifi</td>
+    <td rowspan="2"></td>
+    <td rowspan="2">✔️</td>
+    <td rowspan="2" colspan="3"></td>
+    <td rowspan="2" colspan="3"></td>
+    <td rowspan="2">✔️</td>
+    <td rowspan="2">✔️</td>
+    <td rowspan="2">✔️</td>
+    <td rowspan="2" colspan="3"></td>
+    <td rowspan="2" colspan="3"></td>
+    <td rowspan="2" colspan="2"></td>
+    <td rowspan="2" colspan="4"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2" colspan="2"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+  </tr>
+  <tr>
+    <td>Key Light</td>
   </tr>
   <tr>
     <td>Eaton</td>
@@ -531,6 +580,7 @@
     <td>✔️</td>
     <td>✔️</td>
     <td colspan="2"></td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -549,6 +599,7 @@
     <td>PCI</td>
     <td>8086:*</td>
     <td>❌</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -572,10 +623,11 @@
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td>✔️</td>
-    <td>❌</td>
+    <td>❓</td>
     <td></td>
     <td></td>
     <td>✔️</td>
@@ -592,10 +644,11 @@
     <td>❌</td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td colspan="4"></td>
     <td>✔️</td>
-    <td>❌</td>
+    <td>✔️</td>
     <td></td>
     <td></td>
     <td>✔️</td>
@@ -608,6 +661,7 @@
     <td>GPU</td>
     <td></td>
     <td>✔️</td>
+    <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
@@ -633,6 +687,7 @@
     <td colspan="3"></td>
     <td colspan="3"></td>
     <td colspan="3"></td>
+    <td colspan="3"></td>
     <td colspan="2"></td>
     <td>✔️</td>
     <td>✔️</td>
@@ -652,6 +707,7 @@
     <td>✔️</td>
     <td rowspan="2" colspan="3"></td>
     <td colspan="3"></td>
+    <td rowspan="2" colspan="3"></td>
     <td rowspan="2" colspan="3"></td>
     <td rowspan="2" colspan="3"></td>
     <td rowspan="2" colspan="2"></td>

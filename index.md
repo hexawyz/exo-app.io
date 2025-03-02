@@ -1,24 +1,33 @@
-Exo is a lightweight background service bundled with a nice modern Windows UI, that will manage the features of your devices without sacrificing your memory or CPU.
+Have you ever gasped at all those apps running in the background eating your CPU and Memory just so that you can tweak a small thing on one of your devices?
 
-With Exo, you can get rid of many inefficient apps on your computer, and reduce the RAM and CPU consumption.
+Exo may be your solution!
+
+Exo is a lightweight background service provided with a nice modern Windows UI, that will manage the features of your devices without sacrificing excessive amounts of memory and CPU.
+
+With Exo, you will be able get rid of many apps on your computer and save up your precious RAM and CPU power.
 
 You can check the [Supported Devices](devices.md) page to see if your device(s) are supported.
 
-Download a [recent build](https://github.com/hexawyz/Exo/actions), or [a release](https://github.com/hexawyz/Exo/releases) on GitHub.
+# Download
+
+Download [a release](https://github.com/hexawyz/Exo/releases) on GitHub. ([Automatic builds](https://github.com/hexawyz/Exo/actions) are available)
 
 # Prerequisites
 
-* [.NET 8.0.8 runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-* [Windows App SDK 1.6 Runtime](https://aka.ms/windowsappsdk/1.6/1.6.240829007/windowsappruntimeinstall-x64.exe)
+* [.NET 9.0.200 runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+* [Windows App SDK 1.6.5 Runtime](https://aka.ms/windowsappsdk/1.6/1.6.250205002/windowsappruntimeinstall-x64.exe)
 
 # Features
 
-## Quick Battery Summary on the Home Page
+## Quick Battery Summary and Lamp controls on the Home Page
 
 ![Screenshot of the Home Page](images/Screenshot-Exo-Home.png)
 
 Something that you may miss is the ability to quickly check the battery state of your devices.
 Exo provides that on its home page, so that this is the first thing you see when opening the app.
+
+Exo also allows quick access to your lamp devices from the Home Page.
+These settings can also be accessed from the specific device page.
 
 ## Notifications
 
@@ -96,6 +105,17 @@ The option to persist lighting settings to non-volatile memory of the device is 
 ![Screenshot of the Lighting page, showing a motherboard with unified lighting](images/Screenshot-Exo-Lighting-3.png)
 
 Support for unified lighting effects can also be toggled for mlti-zone devices that support it.
+
+## Lamps
+
+![Screenshot of a Device page, showing Lamp settings](images/Screenshot-Exo-Lamps.png)
+
+Exo will allow to control lamp devices.
+
+These are currently handled as a separate category than RGB lighting.
+Lamps are usually wholly external to the device and can often be controlled externally.
+
+Changes will be sent to lamps immediately, and the UI will try its best to reflect changes done externally in a timely manner.
 
 ## Embedded Monitors
 
