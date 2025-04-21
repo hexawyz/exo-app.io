@@ -594,6 +594,26 @@
   </tr>
   <tr>
     <td>Intel</td>
+    <td>CPU</td>
+    <td>Various</td>
+    <td>MB</td>
+    <td>8086:*</td>
+    <td>✔️</td>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+    <td colspan="2"></td>
+    <td colspan="4"></td>
+    <td>✔️</td>
+    <td colspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Intel</td>
     <td>GPU</td>
     <td>Various</td>
     <td>PCI</td>

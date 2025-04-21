@@ -4,7 +4,7 @@ Exo may be your solution!
 
 Exo is a lightweight background service provided with a nice modern Windows UI, that will manage the features of your devices without sacrificing excessive amounts of memory and CPU.
 
-With Exo, you will be able get rid of many apps on your computer and save up your precious RAM and CPU power.
+With Exo, you will be able get rid of many apps on your computer and reclaim your precious RAM and CPU power.
 
 You can check the [Supported Devices](devices.md) page to see if your device(s) are supported.
 
@@ -14,20 +14,23 @@ Download [a release](https://github.com/hexawyz/Exo/releases) on GitHub. ([Autom
 
 # Prerequisites
 
-* [.NET 9.0.200 runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
-* [Windows App SDK 1.6.5 Runtime](https://aka.ms/windowsappsdk/1.6/1.6.250205002/windowsappruntimeinstall-x64.exe)
+* [.NET 9.0.202 runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+* [Windows App SDK 1.7 Runtime](https://aka.ms/windowsappsdk/1.7/1.7.250310001/windowsappruntimeinstall-x64.exe)
+* [PawnIO 2.0.0](https://github.com/namazso/PawnIO.Setup/releases/download/2.0.0/PawnIO_setup.exe) (Driver used for access to low-level devices)
 
 # Features
 
-## Quick Battery Summary and Lamp controls on the Home Page
+## Home Page with quick access to useful features
 
 ![Screenshot of the Home Page](images/Screenshot-Exo-Home.png)
 
-Something that you may miss is the ability to quickly check the battery state of your devices.
-Exo provides that on its home page, so that this is the first thing you see when opening the app.
+Trying to be the most immediately useful possible, the home page will display the following:
 
-Exo also allows quick access to your lamp devices from the Home Page.
-These settings can also be accessed from the specific device page.
+* The battery state of your devices, so that you can quickly know how well off you are.
+* All sensors that you will have manually picked as favorites.
+* Controls for lamp devices.
+
+All of these informations are also available in other parts of the application.
 
 ## Notifications
 
@@ -155,7 +158,9 @@ Exo has support for listening to hardware device sensors.
 
 This is mainly used for low-level devices such as a GPU or a PSU, but being able to take a quick look of the status of your devices should be useful.
 
-More importantly, having a wide source of sensors is necessary to support software cooling curves.
+You can pick any of these sensors as a favorite for it to be displayed on the homepage.
+
+Some of the sensors showed here may also be usable as a source to create software cooling curves.
 
 ## Cooling
 
@@ -183,5 +188,8 @@ Notably, this component is strictly required to be running in order to support m
 
 ![Screenshot from Task Manager running Exo](images/Screenshot-TaskManager-Exo-Resources.png)
 
-As you can see on the screenshot above, Exo memory consumption is pretty reasonable, topping at about 43 MB of exclusive memory for the background service.
+As you can see on the screenshot above, Exo memory consumption is pretty reasonable, topping at about 33 MB of exclusive memory for the background service and 82MB of shared memory.
 This is all while handling more devices and combined features than the software you would typically use for a single device.
+
+Of course, the numbers shown here are purely indicative, and memory usage wil vary over time.
+Also, systems with less supported devices may see even less memory being used (e.g. less than 10MB of private memory)
