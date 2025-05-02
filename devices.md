@@ -32,7 +32,7 @@
     <td>Unified</td>
     <td>Zones</td>
     <td>Persistence</td>
-    <!-- RGB Lighting -->
+    <!-- Lamps -->
     <td>On/Off</td>
     <td>Brightness</td>
     <td>Color T°</td>
@@ -419,9 +419,9 @@
     <td rowspan="3">1E71:3008</td>
     <td rowspan="3">❌</td>
     <td rowspan="3" colspan="3"></td>
-    <td rowspan="3">❌</td>
-    <td rowspan="3">❌</td>
-    <td rowspan="3">❌</td>
+    <td rowspan="3"></td>
+    <td rowspan="3">✔️</td>
+    <td rowspan="3"></td>
     <td rowspan="3" colspan="3"></td>
     <td rowspan="3">✔️</td>
     <td rowspan="3">✔️</td>
@@ -449,9 +449,9 @@
     <td rowspan="3">1E71:300C</td>
     <td rowspan="3">❌</td>
     <td rowspan="3" colspan="3"></td>
-    <td rowspan="3">❌</td>
-    <td rowspan="3">❌</td>
-    <td rowspan="3">❌</td>
+    <td rowspan="3"></td>
+    <td rowspan="3">✔️</td>
+    <td rowspan="3"></td>
     <td rowspan="3" colspan="3"></td>
     <td rowspan="3">❓</td>
     <td rowspan="3">✔️</td>
@@ -479,9 +479,9 @@
     <td rowspan="3">1E71:3012</td>
     <td rowspan="3">❌</td>
     <td rowspan="3" colspan="3"></td>
-    <td rowspan="3">❌</td>
-    <td rowspan="3">❌</td>
-    <td rowspan="3">❌</td>
+    <td rowspan="3"></td>
+    <td rowspan="3">✔️</td>
+    <td rowspan="3"></td>
     <td rowspan="3" colspan="3"></td>
     <td rowspan="3">❓</td>
     <td rowspan="3">✔️</td>
