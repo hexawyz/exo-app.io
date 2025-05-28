@@ -104,10 +104,27 @@ Only hardware effects are supported at the moment (no custom/dynamic lighting ef
 
 The option to persist lighting settings to non-volatile memory of the device is also provided, if the device supports it.
 
+Unified lighting toggling is available, for the few devices that support it and benefit from it. (Some additional cross-zone hardware effects can be available such as Spectrum Wave)
+
+All of the effects are provided by internal drivers of Exo and try to expose base hardware features of the device in a comprehensive manners.
+Some settings are still abstracted for convenience (e.g. speed when supported), but that is mostly a choice done to conform to how most other apps deal with these settings.
+
 ![Screenshot of the Lighting page, showing a motherboard with multiple lighting zones](images/Screenshot-Exo-Lighting-2.png)
 ![Screenshot of the Lighting page, showing a motherboard with unified lighting](images/Screenshot-Exo-Lighting-3.png)
+![Screenshot of the Lighting page, showing a list of effects for Kraken Z](images/Screenshot-Exo-Lighting-4.png)
 
-Support for unified lighting effects can also be toggled for mlti-zone devices that support it.
+In addition to all of these, exo can be used to apply an effect to all devices at the same time.
+This mode supports only a few predefined effects, and will generally be useful to quickly shut off all the LEDs or set them all to the same color.
+
+Centralized lighting support hardcoded fallbacks so that the selected effect will be applied to all devices in best effort.
+Keep in mind that centralized lighting still applies hardware effets, so timers won't be synchronized across different devices.
+
+(NB: Some work may be done in the future to provide a way to have "good enough" hardware synchronization, but not today !)
+
+![Screenshot of the Lighting page, showing centralized lighting](images/Screenshot-Exo-Lighting-5.png)
+
+And for convenience of the used, the UI allows to export or import lighting configuration.
+This feature is intended to let you play with the UI and be able to quickly revert in a previous state, which will be very useful if you have many lighting devices or complex effects setups.
 
 ## Lamps
 
