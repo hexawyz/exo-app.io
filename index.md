@@ -6,7 +6,7 @@ Exo is a lightweight background service provided with a nice modern Windows UI, 
 
 With Exo, you will be able get rid of many apps on your computer and reclaim your precious RAM and CPU power.
 
-You can check the [Supported Devices](devices.md) page to see if your device(s) are supported.
+You can check the [Supported Devices](devices.md) page to see if your device(s) are supported. If not, don't hesitate to open an issue for support.
 
 # Download
 
@@ -15,8 +15,8 @@ Download [a release](https://github.com/hexawyz/Exo/releases) on GitHub. ([Autom
 # Prerequisites
 
 * [.NET 9.0.202 runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
-* [Windows App SDK 1.7 Runtime](https://aka.ms/windowsappsdk/1.7/1.7.250310001/windowsappruntimeinstall-x64.exe)
-* [PawnIO 2.0.0](https://github.com/namazso/PawnIO.Setup/releases/download/2.0.0/PawnIO_setup.exe) (Driver used for access to low-level devices)
+* [Windows App SDK 1.7.1 Runtime](https://aka.ms/windowsappsdk/1.7/1.7.250401001/windowsappruntimeinstall-x64.exe)
+* [PawnIO](https://pawnio.eu/) (Driver used for access to low-level devices)
 
 # Features
 
